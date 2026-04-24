@@ -1,0 +1,30 @@
+{
+  "name": "test-ai-chatbot-application",
+  "version": "1.0.0",
+  "description": "This application will allow a user to interact with a personalized chatbot. This is a test project to see if it can be integrated for future projects.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daifaizonaldridge/Test-AI-ChatBot-Application.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Daifaizonaldridge/Test-AI-ChatBot-Application/issues"
+  },
+  "homepage": "https://github.com/Daifaizonaldridge/Test-AI-ChatBot-Application#readme",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "openai": "^6.34.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
