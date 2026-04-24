@@ -12,9 +12,8 @@ export const aiGenerate = async (req, res) => {
         model: "gpt-4o-mini",
         messages: [{ role: "user", content: prompt }],
     });
+    res.json({ description: response.choices[0].message.content });
 };
-
-res.json({ description: response.choices[0].message.content });
 
 
 

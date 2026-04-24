@@ -1,5 +1,5 @@
 import express from "express";
-import { aiGenerate } from "aiGenerate.js";
+import { aiGenerate } from "./aiGenerate.js";
 const app = express();
 
 //middleware
