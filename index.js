@@ -5,7 +5,6 @@ const app = express();
 //middleware
 app.use(express.json());
 
-
 //API endpoint 1: get
 app.get("/", (req, res) => {
   res.send("Hello World");
